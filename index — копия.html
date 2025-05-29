@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Secrets of Forest</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #1e1e1e;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+      color: #8fbc8f;
+    }
+
+    nav {
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px 0;
+      gap: 15px;
+    }
+
+    nav a {
+      color: #8fbc8f;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 16px;
+      border-radius: 5px;
+      transition: background 0.2s;
+    }
+
+    nav a:hover {
+      background-color: #2a2a2a;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #8fbc8f;
+      border-bottom: 1px solid #333;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .gallery img {
+      max-width: 100%;
+      border-radius: 8px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .btn-download {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #8fbc8f;
+      color: #121212;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .btn-download:hover {
+      background-color: #75a275;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+      background-color: #1a1a1a;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Secrets of Forest</h1>
+    <p>Пиксельный 2D платформер в стиле dark fantasy</p>
+  </header>
+
+  <nav>
+    <a href="#story">Сюжет</a>
+    <a href="#gameplay">Геймплей</a>
+    <a href="#locations">Локации</a>
+    <a href="#characters">Персонажи</a>
+    <a href="#features">Особенности</a>
+    <a href="#download">Скачать</a>
+  </nav>
+
+  <section id="story">
+    <h2>Сюжет и атмосфера</h2>
+    <p>Игрок оказывается в загадочном волшебном лесу, полном тайн и опасностей. В глубине леса скрыты древние секреты, магические артефакты и забытые цивилизации. Злобные существа, подземелья, джунгли и замок ждут исследователя. Игра пропитана атмосферой dark fantasy — мрачной, но красивой: пиксельные пейзажи, меланхоличная музыка и звуки природы сопровождают игрока.</p>
+  </section>
+
+  <section id="gameplay">
+    <h2>Геймплей</h2>
+    <ul>
+      <li>Платформинг с прыжками, бегом и отталкиванием от стен</li>
+      <li>7–10 уникальных героев со своими скинами и умениями</li>
+      <li>Сражения с монстрами из фантастических ассетов</li>
+      <li>Сбор предметов: монеты, ключи, зелья, артефакты</li>
+      <li>Магазин с улучшениями и скинами</li>
+      <li>Сохранение прогресса и открытие новых зон и героев</li>
+    </ul>
+  </section>
+
+  <section id="locations">
+    <h2>Локации</h2>
+    <ul>
+      <li><strong>Лес</strong>: стартовая зона с мягкой атмосферой и базовыми врагами</li>
+      <li><strong>Джунгли</strong>: сложнее, плотная растительность и ловушки</li>
+      <li><strong>Подземелье</strong>: мрачная зона с огненными ловушками</li>
+      <li><strong>Замок</strong>: финальная зона с боссами и головоломками</li>
+    </ul>
+  </section>
+
+  <section id="characters">
+    <h2>Персонажи</h2>
+    <p>Игра включает 7–10 героев, каждый со своим внешним видом, базовыми способностями и анимациями. Новые персонажи открываются за монеты или по сюжету. Все герои имеют прокачку и уникальные скины, которые можно приобрести в игровом магазине.</p>
+  </section>
+
+  <section id="features">
+    <h2>Технические особенности</h2>
+    <ul>
+      <li>Разрешение от 1280x720 до 1920x1080</li>
+      <li>Пиксельные ассеты высокого качества</li>
+      <li>Оптимизация под средние ПК</li>
+      <li>Сохранения на диск</li>
+      <li>Звуки: атаки, прыжки, сбор предметов и музыка в стиле dark fantasy</li>
+    </ul>
+  </section>
+
+  <section class="gallery">
+    <!-- Здесь можно вставить скриншоты игры -->
+    <!-- <img src="screenshot1.png" alt="Скриншот 1">
+    <img src="screenshot2.png" alt="Скриншот 2"> -->
+  </section>
+
+  <section id="download">
+    <h2>Скачать игру</h2>
+    <p>Скоро здесь появится ссылка для загрузки ZIP-архива с игрой.</p>
+    <a href="#" class="btn-download">Скачать игру</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Secrets of Forest. Все права защищены.
+  </footer>
+
+</body>
+</html>
